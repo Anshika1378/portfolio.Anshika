@@ -90,38 +90,6 @@ body {
 a {
   text-decoration: none !important;
 }
-@media (max-width: 600px) {
-  body {
-    width: auto;
-  }
-  .main {
-    width: auto;
-    margin-top: 2px;
-    height: 530px;
-  }
-  .btn-about{
-    margin-bottom: 2px;
-  }
-  .image {
-    width: 200px;
-    height: 180px;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 18%;
-  }
-  .main-first {
-    width: auto;
-  }
-  .about {
-    width: auto;
-    margin-top: auto;
-  }
-  .rounded {
-    width: auto;
-    text-align: center;
-  }
-}
 /* about */
 .about {
   height: fit-content;
@@ -254,63 +222,6 @@ button {
 /* fotter-end */
 .com {
   height: fit-content;
-}
-@media (max-width: 600px) {
-  .languageset {
-    height: fit-content;
-    width: auto;
-    margin-top: 30%;
-  }
-  .icons {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-  }
-  .contact {
-    height: auto;
-  }
-  .project {
-    height: fit-content;
-  }
-  .card-project{
-    margin-left: 12%;
-  }
-  .icon-image {
-    height: 30px;
-    width: 30px;
-  }
-  .icon-text {
-    font-size: 10px;
-  }
-  .skills {
-    margin-top: 5px;
-    height: 600px;
-  }
-  .input-box {
-    width: auto;
-    height: auto;
-  }
-  input,
-  textarea {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  button {
-    width: 50%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    justify-content: center;
-  }
-  .card{
-    justify-content: center;
-    text-align: center;
-    margin-left: 12%;
-  }
 }
 .top {
   display: none;
@@ -566,5 +477,93 @@ button {
     justify-content: center;
     text-align: center;
     margin-left: 30%;
+  }
+}
+@media (min-width: 300px) and (max-width : 700px) {
+  body {
+    width: auto;
+  }
+  .main {
+    width: auto;
+    margin-top: 2px;
+    height: 530px;
+  }
+  .btn-about{
+    margin-bottom: 2px;
+  }
+  .image {
+    width: 200px;
+    height: 180px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 18%;
+  }
+  .main-first {
+    width: auto;
+  }
+  .about {
+    width: auto;
+    margin-top: auto;
+  }
+  .rounded {
+    width: auto;
+    text-align: center;
+  }
+  .languageset {
+    height: fit-content;
+    width: auto;
+    margin-top: 30%;
+  }
+  .icons {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .contact {
+    height: auto;
+  }
+  .project {
+    height: fit-content;
+  }
+  .card-project{
+    margin-left: 10%;
+  }
+  .icon-image {
+    height: 30px;
+    width: 30px;
+  }
+  .icon-text {
+    font-size: 10px;
+  }
+  .skills {
+    margin-top: 5px;
+    height: 600px;
+  }
+  .input-box {
+    width: auto;
+    height: auto;
+  }
+  input,
+  textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  .card{
+    justify-content: center;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
   }
 }
