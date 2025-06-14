@@ -273,7 +273,7 @@ button {
     height: fit-content;
   }
   .card-project{
-    margin-left: 20%;
+    margin-left: 12%;
   }
   .icon-image {
     height: 30px;
@@ -309,7 +309,7 @@ button {
   .card{
     justify-content: center;
     text-align: center;
-    margin-left: 20%;
+    margin-left: 12%;
   }
 }
 .top {
