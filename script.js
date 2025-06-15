@@ -24,3 +24,33 @@ window.onscroll = function(){
 scrool.onclick = function(){
     window.scrollTo({top: 0,behavior: "smooth"});
 };
+
+// smoot anout
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+  });
+
+//   skills
+// const skills = document.querySelectorAll(".icons");
+
+//   const observer = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         entry.target.style.opacity = 1;
+//         entry.target.style.transform = "translateY(0)";
+//       }
+//     });
+//   }, {
+//     threshold: 0.2
+//   });
+
+//   skills.forEach(skill => {
+//     skill.style.opacity = 0;
+//     skill.style.transform = "translateY(30px)";
+//     observer.observe(skill);
+//   });
