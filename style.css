@@ -72,8 +72,8 @@ body {
 
 .image {
   border-radius: 50%;
-  height: auto;
-  width: 320px;
+  height: 280px;
+  width: 260px;
   justify-content: center;
   /* padding-top: 2rem; */
 }
@@ -121,6 +121,14 @@ a {
 /* about */
 .about {
   height: fit-content;
+}
+
+.about-img {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+.about-img:hover{
+  filter: grayscale(0%);
 }
 
 .tech {
@@ -364,7 +372,7 @@ button {
   display: block;
 }
 
- .last-right {
+.last-right {
   justify-content: end;
   text-align: end;
 }
@@ -499,7 +507,8 @@ button {
   .grad {
     font-size: 1rem;
   }
-  .last-right{
+
+  .last-right {
     justify-items: start;
   }
 }
@@ -647,7 +656,7 @@ button {
     margin-top: 5%;
   }
 
- .last-right{
+  .last-right {
     justify-items: start;
   }
 
@@ -802,11 +811,12 @@ button {
     justify-content: center;
     text-align: center;
     margin-left: 5%;
-    margin-right: 5%;;
+    margin-right: 5%;
+    ;
     width: 100%;
   }
-  .last-right{
+
+  .last-right {
     justify-items: start;
   }
 }
-
